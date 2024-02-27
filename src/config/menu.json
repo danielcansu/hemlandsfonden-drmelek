@@ -1,44 +1,40 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Hem",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Om Oss",
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Pages",
+      "name": "Sidor",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
+          "name": "Kontakta Oss",
           "url": "/contact"
         },
         {
-          "name": "Blog",
+          "name": "Blogg",
           "url": "/blog"
         },
         {
-          "name": "Authors",
+          "name": "Redaktörer",
           "url": "/authors"
         },
         {
-          "name": "Categories",
+          "name": "Kategorier",
           "url": "/categories"
         },
         {
-          "name": "Tags",
+          "name": "Taggar",
           "url": "/tags"
         },
         {
-          "name": "404 Page",
+          "name": "404 Sida",
           "url": "/404"
         }
       ]

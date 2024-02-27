@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Next?"
+title: "Tycker du om vårt initiativ och vill hjälpa till?"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Nextplate and Next. Build lightning-fast static sites with ease and flexibility."
+description: "Vi försöker ständigt att utvecklas och att förbättras, vi gör detta för att kunna hjälpa till omvärlden."
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/nextplate"
+  label: "Börja redan nu"
+  link: "#"
 ---

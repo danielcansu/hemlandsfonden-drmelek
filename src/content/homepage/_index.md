@@ -1,53 +1,54 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  title: "Dr Meleks Hemlandsfond"
+  content: "Dr Meleks Hemlandsfond är en stiftelse som funnits i närmare 27 år. Stiftelsen skapades efter assyriern Dr Melek Kavakcioglus hastiga bortgång år 1996."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
+    label: "Läs mer här"
     link: "https://github.com/zeon-studio/nextplate"
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
+  - title: "Stöd oss (Privatpersoner)"
     image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+    content: "Tillsammans kan vi hjälpa assyrier i behov av ekonomiskt stöd. Som privatperson kan du bidra på olika sätt, se alternativen nedan."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
-
-  - title: "Discover the Key Features Of Next"
-    image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Bli månadsgivare via Autogiro"
+      - "Du bidrar med ett långsiktigt stöd. Detta genom att donera ett fast belopp, som du själv väljer (minst 50 kr), som förs över automatiskt från ditt konto till Dr Meleks Hemlandsfond. Länk till autogiroanmälan."
+      - "Skänk en gåva, detta alternativ passar dig som inte har möjlighet att bidra kontinuerligt genom ett långsiktigt stöd."
+      - "Starta en insamlingskampanj på Facebook eller Instagram (via xx)"
+      - "Gåva från ett annat land än Sverige"
+      - "Vill du bli månadsgivare men bor i utlandet får du kontakta din bank för att ta reda på vilket sätt du kontinuerligt kan ge ditt bidrag."
+      - "Vanliga donationer görs till: BANK/PLUS GIRO/KONTONR"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/nextplate"
+      label: "Mer information"
+      link: "#"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Stöd oss (Företag)"
+    image: "/images/service-2.png"
+    content: "Tillsammans kan vi hjälpa assyrier i behov av ekonomiskt stöd. Som företag kan du bidra på olika sätt, se alternativen nedan."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Vill du som företag bidra med stöd till Dr Meleks Hemlandsfond?"
+      - "Bifoga en online blankett som företag kan fylla i med de uppgifter som krävs för att vi ska kunna ta kontakt med dem."
+      - "Vanliga donationer görs till: BANK/PLUS GIRO/KONTONR"
     button:
-      enable: false
-      label: ""
+      enable: true
+      label: "Mer information"
       link: ""
+
+  # - title: "The Top Reasons to Choose Next for Your Next Project"
+  #   image: "/images/service-3.png"
+  #   content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  #   bulletpoints:
+  #     - "Instantly load static sites for better user experience and SEO."
+  #     - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
+  #     - "Use any front-end library or framework, or build custom components, for any project size."
+  #     - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+  #   button:
+  #     enable: false
+  #     label: ""
+  #     link: ""
 ---
