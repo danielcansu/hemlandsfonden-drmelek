@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Dr Meleks Hemlandsfond",
-    "base_url": "https://nextplate.netlify.app",
+    "base_url": "https://drmelekshemlandsfond.se/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
