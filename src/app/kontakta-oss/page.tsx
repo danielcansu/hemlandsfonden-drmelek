@@ -5,7 +5,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
 
 const Contact = async () => {
-  const data: RegularPage = getListPage("contact/_index.md");
+  const data: RegularPage = getListPage("kontakt/_index.md");
   const { frontmatter } = data;
   const { title, description, meta_title, image } = frontmatter;
   const { contact_form_action } = config.params;
@@ -26,7 +26,7 @@ const Contact = async () => {
               <form action={contact_form_action} method="POST">
                 <div className="mb-6">
                   <label htmlFor="name" className="form-label">
-                    Full Name <span className="text-red-500">*</span>
+                    Fullständigt namn <span className="text-red-500">*</span>
                   </label>
                   <input
                     id="name"
@@ -38,7 +38,7 @@ const Contact = async () => {
                 </div>
                 <div className="mb-6">
                   <label htmlFor="email" className="form-label">
-                    Working Mail <span className="text-red-500">*</span>
+                    E-mail <span className="text-red-500">*</span>
                   </label>
                   <input
                     id="email"
@@ -50,7 +50,7 @@ const Contact = async () => {
                 </div>
                 <div className="mb-6">
                   <label htmlFor="message" className="form-label">
-                    Anything else? <span className="text-red-500">*</span>
+                    Meddelande <span className="text-red-500">*</span>
                   </label>
                   <textarea
                     id="message"
@@ -61,7 +61,7 @@ const Contact = async () => {
                   ></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary">
-                  Submit
+                  Skicka
                 </button>
               </form>
             </div>
