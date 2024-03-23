@@ -3,6 +3,7 @@ import MDXContent from "@/helpers/MDXContent";
 import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
+import PageHeader from "@/partials/PageHeader";
 import { RegularPage } from "@/types";
 
 const About = () => {
@@ -18,6 +19,7 @@ const About = () => {
         description={description}
         image={image}
       />
+      <PageHeader title={title} />
       <section className="section-sm">
         <div className="container">
           <div className="row justify-center">
@@ -31,10 +33,6 @@ const About = () => {
                   alt={title}
                 />
               )}
-              <h2
-                dangerouslySetInnerHTML={markdownify(title)}
-                className="h3 mb-6"
-              />
               <div className="content">
                 <MDXContent content={content} />
               </div>
