@@ -9,41 +9,22 @@
       "url": "/about"
     },
     {
-      "name": "Sidor",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Kontakta Oss",
-          "url": "/kontakta-oss"
-        },
-        {
-          "name": "Blogg",
-          "url": "/blog"
-        },
-        {
-          "name": "Redaktörer",
-          "url": "/authors"
-        },
-        {
-          "name": "Kategorier",
-          "url": "/categories"
-        },
-        {
-          "name": "Taggar",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Sida",
-          "url": "/404"
-        }
-      ]
+      "name": "Kontakta Oss",
+      "url": "/kontakta-oss"
+    },
+    {
+      "name": "Blogg",
+      "url": "/blog"
+    },
+    {
+      "name": "Styrelse",
+      "url": "/authors"
     }
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Kontakta Oss",
+      "url": "/kontakta-oss"
     },
     {
       "name": "Privacy Policy",
