@@ -13,9 +13,9 @@
   },
 
   "settings": {
-    "search": true,
+    "search": false,
     "sticky_header": true,
-    "theme_switcher": true,
+    "theme_switcher": false,
     "default_theme": "system",
     "pagination": 2,
     "summary_length": 200,
@@ -30,7 +30,7 @@
   "navigation_button": {
     "enable": true,
     "label": "Stöd Oss",
-    "link": "#"
+    "link": "/kontakta-oss"
   },
 
   "disqus": {

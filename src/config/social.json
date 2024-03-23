@@ -1,11 +1,6 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
-    },
-    {
       "name": "instagram",
       "icon": "FaInstagram",
       "link": "https://instagram.com/"

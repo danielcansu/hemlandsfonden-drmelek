@@ -9,12 +9,8 @@
       "url": "/about"
     },
     {
-      "name": "Kontakta Oss",
+      "name": "Kontakt",
       "url": "/kontakta-oss"
-    },
-    {
-      "name": "Blogg",
-      "url": "/blog"
     },
     {
       "name": "Styrelse",
@@ -27,7 +23,7 @@
       "url": "/kontakta-oss"
     },
     {
-      "name": "Privacy Policy",
+      "name": "Integritetspolicy",
       "url": "/privacy-policy"
     }
   ]

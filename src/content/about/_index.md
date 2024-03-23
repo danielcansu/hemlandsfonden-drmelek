@@ -10,6 +10,3 @@ Dr Meleks Hemlandsfond är en stiftelse som funnits i närmare 27 år. Stiftelse
 
 <h3>Ändamål</h3>
 Stiftelsens uteslutande ändamål är att fortsätta på det arv som Dr Melek började bygga upp, d.v.s. att främja humanitära insatser till assyrier i ursprungsländerna. Insatserna har hittills bestått av ekonomiskt stöd till ungas utbildningsmöjligheter och lärandeprojekt med fokus på det assyriska språket.
-
-<h3>Styrelsen</h3>
-Styrelsens uppgifter är att förvalta fondens medel och fatta beslut avseende sådantsom rör Stiftelsens verksamhet. Detta innebär förvaltning av fondens medel för samordning av projekt, pris- och stipendieutdelningar, frågor kring nationella och internationella samarbeten samt insamlingskampanjer och andra frågor som är förenliga med Stiftelsens ändamål. Stiftelsens nuvarande styrelse valdes vid stiftelsens årsmöte 2023. Nästa mandatperiod startar år 2025. Info om styrelsen Styrelsen består av ordförande Athrin Aho, firmatecknare Sheyno Besara Cansu och Chamiram Bisso Hanna, sekreterare Ramil Bisso, och ledamöter Tibel Aho och Niram-Karim Charo. Representant från Assyriska föreningen är Alexandra Aho och representant från St Jacobs av Nsibins Syrisk ortodoxa kyrka är Nenos Shabow.

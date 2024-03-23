@@ -5,10 +5,10 @@ description: "Ta inte bara vårt ord för det - hör vad några av våra nöjda 
 
 # Testimonials
 testimonials:
-  - name: "John Doe"
+  - name: "Anonym"
     designation: "Studerande"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Dr Meleks Hemlandsfond gav mig möjligheten att studera vidare och följa mina drömmar, det är jag evigt tacksam för."
 
   - name: "John Doe"
     designation: "Studerande"
