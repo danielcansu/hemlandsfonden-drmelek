@@ -42,7 +42,7 @@ const ContactForm = () => {
       } else {
         throw new Error('Submission failed');
       }
-    } catch (error) {
+    } catch (error: any) {
         console.error('Error sending email: ', error);
         
         let errorMessage = 'An unknown error occurred';
