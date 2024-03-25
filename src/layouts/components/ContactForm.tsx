@@ -43,9 +43,14 @@ const ContactForm = () => {
         throw new Error('Submission failed');
       }
     } catch (error) {
-        console.error('Error during form submission', error);
-        setFormStatus({ message: 'There was an error sending your message. Please try again.', isSuccess: false });
-      }
+        console.error('Error during form submission: ', error);
+        let errorMessage = 'There was an error sending your message. Please try again.';
+        if (error instanceof Error) {
+          // Optionally process the error further or log it
+          errorMessage = error.message; // This is more for logging. Since you're in client-side, showing detailed error messages from exceptions might not be user-friendly or secure.
+        }
+        setFormStatus({ message: errorMessage, isSuccess: false });
+    }
   };
 
   return (
