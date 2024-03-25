@@ -34,9 +34,15 @@ const sendMailHandler = async (req: NextApiRequest, res: NextApiResponse) => {
       const info = await transporter.sendMail(mailOptions);
       console.log('Message sent: %s', info.messageId);
       res.status(200).json({ message: 'Email sent successfully.' });
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error sending email: ', error);
-      res.status(500).json({ error: 'Error sending email', details: error.message });
+      
+      let errorMessage = 'An unknown error occurred';
+      if (error instanceof Error) {
+        errorMessage = error.message;
+      }
+    
+      res.status(500).json({ error: 'Error sending email', details: errorMessage });
     }
   } else {
     res.setHeader('Allow', ['POST']);
