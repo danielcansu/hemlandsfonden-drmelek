@@ -43,14 +43,13 @@ const ContactForm = () => {
         throw new Error('Submission failed');
       }
     } catch (error) {
-        console.error('Error during form submission: ', error);
-        let errorMessage = 'There was an error sending your message. Please try again.';
-        if (error instanceof Error) {
-          // Optionally process the error further or log it
-          errorMessage = error.message; // This is more for logging. Since you're in client-side, showing detailed error messages from exceptions might not be user-friendly or secure.
-        }
-        setFormStatus({ message: errorMessage, isSuccess: false });
-    }
+        console.error('Error sending email: ', error);
+      
+        // Check if 'error' is an instance of 'Error' and access 'message' safely
+        const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred';
+      
+        res.status(500).json({ error: 'Error sending email', details: errorMessage });
+      }
   };
 
   return (
