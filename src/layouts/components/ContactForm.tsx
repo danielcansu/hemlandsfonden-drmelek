@@ -44,9 +44,11 @@ const ContactForm = () => {
       }
     } catch (error) {
         console.error('Error sending email: ', error);
-      
-        // Check if 'error' is an instance of 'Error' and access 'message' safely
-        const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred';
+        
+        let errorMessage = 'An unknown error occurred';
+        if (error instanceof Error) {
+          errorMessage = error.message;
+        }
       
         res.status(500).json({ error: 'Error sending email', details: errorMessage });
       }
