@@ -42,15 +42,9 @@ const ContactForm = () => {
       } else {
         throw new Error('Submission failed');
       }
-    } catch (error: any) {
-        console.error('Error sending email: ', error);
-        
-        let errorMessage = 'An unknown error occurred';
-        if (error instanceof Error) {
-          errorMessage = error.message;
-        }
-      
-        res.status(500).json({ error: 'Error sending email', details: errorMessage });
+    } catch (error) {
+        console.error('Error during form submission', error);
+        setFormStatus({ message: 'There was an error sending your message. Please try again.', isSuccess: false });
       }
   };
 
