@@ -20,10 +20,10 @@ const Authors = () => {
       <section className="section-sm pb-0">
         <div className="container">
           <div className="row justify-center">
-          <div className="mb-14 md:col-6 lg:col-10">
+            <div className="mb-14 md:col-6 lg:col-10">
               <h3 className="text-center mb-4">Styrelsen</h3>
-              <p>Styrelsens uppgifter är att förvalta fondens medel och fatta beslut avseende sådantsom rör Stiftelsens verksamhet. Detta innebär förvaltning av fondens medel för samordning av projekt, pris- och stipendieutdelningar, frågor kring nationella och internationella samarbeten samt insamlingskampanjer och andra frågor som är förenliga med Stiftelsens ändamål. Stiftelsens nuvarande styrelse valdes vid stiftelsens årsmöte 2023. Nästa mandatperiod startar år 2025. Info om styrelsen Styrelsen består av ordförande Athrin Aho, sekreterare Ramil Bisso, och ledamöter Tibel Aho, Niram-Karim Charo, Sheyno Besara Cansu och Chamiram Bisso Hanna. Representant från Assyriska föreningen är Alexandra Aho och representant från St Jacobs av Nsibins Syrisk ortodoxa kyrka är Nenos Shabow.</p>
-              </div>
+              <p className="text-center">Styrelsens uppgifter är att förvalta fondens medel och fatta beslut avseende sådantsom rör Stiftelsens verksamhet. Detta innebär förvaltning av fondens medel för samordning av projekt, pris- och stipendieutdelningar, frågor kring nationella och internationella samarbeten samt insamlingskampanjer och andra frågor som är förenliga med Stiftelsens ändamål. Stiftelsens nuvarande styrelse valdes vid stiftelsens årsmöte 2023. Nästa mandatperiod startar år 2025. Info om styrelsen Styrelsen består av ordförande Athrin Aho, sekreterare Ramil Bisso, och ledamöter Tibel Aho, Niram-Karim Charo, Sheyno Besara Cansu och Chamiram Bisso Hanna. Representant från Assyriska föreningen är Alexandra Aho och representant från St Jacobs av Nsibins Syrisk ortodoxa kyrka är Nenos Shabow.</p>
+            </div>
           </div>
           <div className="row justify-center">
             {authors.map((author: Author, index: number) => (

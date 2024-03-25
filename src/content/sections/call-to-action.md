@@ -1,7 +1,7 @@
 ---
 enable: true
 title: "Tycker du om vårt initiativ och vill hjälpa till?"
-image: "/images/call-to-action.png"
+image: "/images/service-6.png"
 description: ""
 button:
   enable: true

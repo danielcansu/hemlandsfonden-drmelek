@@ -3,7 +3,7 @@
 banner:
   title: "Dr Meleks Hemlandsfond"
   content: "Dr Meleks Hemlandsfond är en stiftelse som funnits i närmare 28 år. Stiftelsen skapades efter assyriern Dr Melek Kavakcioglus hastiga bortgång år 1996."
-  image: "/images/banner.png"
+  image: "/images/service-5.png"
   button:
     enable: true
     label: "Läs mer här"
@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "Stöd oss"
-    image: "/images/service-1.png"
+    image: "/images/service-4.png"
     content: "Tillsammans kan vi hjälpa assyrier i behov av ekonomiskt stöd. Som både privatperson och företag kan du bidra på olika sätt, se alternativen nedan."
     bulletpoints:
       - "Bli månadsgivare via Autogiro och bidra med ett långsiktigt stöd"
