@@ -2,7 +2,7 @@
 title: "Om Oss"
 meta_title: "Om Oss"
 description: "Dr Melek Kavakcioglu"
-image: "/images/dr-melek-1.jpg"
+image: "/images/dr-melek-1.JPG"
 draft: false
 ---
 <h3>Info</h3>
