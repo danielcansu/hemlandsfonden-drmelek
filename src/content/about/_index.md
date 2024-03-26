@@ -1,8 +1,8 @@
 ---
 title: "Om Oss"
 meta_title: "Om Oss"
-description: "Detta är en beskriving"
-image: "/images/avatar.png"
+description: "Dr Melek Kavakcioglu"
+image: "/images/dr-melek-1.jpg"
 draft: false
 ---
 <h3>Info</h3>
