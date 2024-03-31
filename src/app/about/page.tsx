@@ -23,7 +23,7 @@ const About = () => {
       <section className="section-sm">
         <div className="container">
           <div className="row justify-center">
-            <div className="text-center md:col-10 lg:col-7">
+            <div className="text-left md:col-10 lg:col-7mb-14 md:col-6 lg:col-10">
               {image && (
                 <ImageFallback
                   className="mx-auto mb-6 rounded-lg"
